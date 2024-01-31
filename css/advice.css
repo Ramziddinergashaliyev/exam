@@ -1,0 +1,72 @@
+#advice {
+  padding-top: 125px;
+}
+
+.advice__cards {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding-bottom: 80px;
+  flex-wrap: wrap;
+}
+.advice__card {
+  display: flex;
+  width: 238px;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.advice__card:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.advice__card__title {
+  color: #252B42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  padding: 30px 0px 15px;
+}
+
+.advice__card__text {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px; 
+  padding: 0px 30px 30px;
+}
+
+.advice__top {
+  text-align: center;
+}
+
+.advice__top__title {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.advice__top__text {
+  color:  #737373;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding-bottom: 45px;
+}

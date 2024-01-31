@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth
+}
+
+:root {
+  --container-width: 1046px;
+  --primary-color: #FFA62B;
+  --nav-padding: 23px;
+  --text-color: #252B42
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+a {
+  color: inherit
+}
+
+button {
+  cursor: pointer
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto
+}
+
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+#bactop {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  background: #87ceeb;
+  font-size: 22px;
+  padding: 16px 20px;
+  border-radius: 50%;
+  display: none
+}
+
+.show-bactop {
+  display: block !important
+}

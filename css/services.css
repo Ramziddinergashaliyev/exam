@@ -1,0 +1,152 @@
+#services {
+  background-color: #fff;
+}
+
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 100px 0px;
+}
+.services__top {
+  text-align: center;
+}
+.services__light-img {
+  width: 507px;
+  height: 442px;
+  flex-shrink: 0;
+}
+
+.vidio__card {
+  top: 150px;
+  left: 200px;
+  display: inline-flex;
+  padding: 34.8px 36.8px;
+  border-radius: 73.6px;
+  background: var(--secondary-color-1);
+}
+
+.services__title {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px; 
+  padding-top: 100px; 
+}
+
+.services__text {
+  color:#737373;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding-top: 15px;
+}
+.services-right__title {
+  color: #252B42;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;  
+}
+
+.services-right__text {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px; 
+}
+
+.icon__title {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.icon__text {
+  color: var(--second-text-color, #737373);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.services__icon__title {
+  padding: 30px 0px;
+}
+
+
+.partner {
+  background: #FAFAFA;
+}
+
+.partner__card {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 50px 0px 50px;
+}
+
+.partner__img {
+  width: 76px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.form {
+  display:flex;
+  padding: 30px 50px;
+  border-radius: 2px;
+  background: #16697A;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+
+input[type="text"] {
+  height: 58px;
+  width: 350px;
+  outline: none;
+  cursor: pointer;
+}
+
+.form__title {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.subsicribe__btn {
+  width: 117px;
+  height:57px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+  background: var(--primary-color);
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}

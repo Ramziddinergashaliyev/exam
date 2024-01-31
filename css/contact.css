@@ -1,0 +1,152 @@
+#contact {
+  background: #F3F3F3;
+}
+.contact__top {
+  text-align: center;
+  padding: 80px 0px;
+}
+
+.contact__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact__card {
+  padding: 50px 60px;
+  max-width:328px;
+  background: #FFF;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.contact__card:hover{
+  background-color: #252B42;
+  color: white;
+}
+.contact__card:hover .contact__card__text {
+  color: white;
+}
+.contact__card:hover .contact__card__title {
+  color: white;
+}
+
+.contact__card,.contact__card__text:hover {
+  color: white;
+}
+.contact__card:hover
+.contact__btn {
+  border: 1px solid white;
+  color: white;
+}
+
+.contact__top h1 {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+.contact__top p {
+  color: var(--second-text-color, #737373);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.contact__card__text {
+  color: #252B42;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.contact__card h3 {
+  color:#252B42;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  padding: 15px 0px;
+}
+.contact__btn {
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  color: var(--primary-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  background: transparent;
+  margin: 0 auto;
+}
+
+.input-card {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+.input-name {
+  text-align: center;
+  margin-top: 100px;
+}
+input {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0px;
+  padding: 0px 20px;
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+}
+
+.input__btn {
+  display: inline-flex;
+  padding: 15px 40px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: var(--primary-color);
+  margin-top: 50px;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  border: none;
+}
+
+.input__btn:hover {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
